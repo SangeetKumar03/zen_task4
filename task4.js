@@ -36,7 +36,7 @@ countryData.forEach((element)=>{
 
 //5
 const curr=countryData.filter((element)=>{
-    if(element.currencies.name==="United State Dollar"){
+    if(element.currencies.name==="USD"){
         return element.name;
     }
 })
